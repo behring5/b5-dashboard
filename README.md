@@ -2,9 +2,9 @@
 
 A small dashboard showing...
 
-- time/date (plain simple JS)
-- weather data using [openweathermap.org's](https://openweathermap.org) API
-- next departures for trains/buses near my home using the [BVG API](https://v5.bvg.transport.rest/)
+-  time/date (plain simple JS)
+-  weather data using [openweathermap.org's](https://openweathermap.org) API
+-  next departures for trains/buses near my home using this [BVG API](https://v6.bvg.transport.rest/)
 
 The dashboard is hosted under [behring5.de](https://behring5.de/) and displayed on an old tablet in my kitchen. I'm using the [Fully Kiosk Browser](https://www.fully-kiosk.com/), which has some nice features like fullscreen mode and motion/sound detection, which turns the screen on when you enter the kitchen.
 <br>  
@@ -16,7 +16,7 @@ The dashboard is hosted under [behring5.de](https://behring5.de/) and displayed 
   
 ### elements/ideas to add/optimize...
 
-- [x] optimize data update (visually)
-- [x] make it responsive to use it also on smartphone
-- [ ] adding some other information like maybe news,...
-- [ ] dark/light mode according to daytime for better readabilty
+-  [x] optimize data update (visually)
+-  [x] make it responsive to use it also on smartphone
+-  [ ] adding some other information like maybe news,...
+-  [ ] dark/light mode according to daytime for better readabilty

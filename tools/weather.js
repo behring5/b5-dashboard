@@ -1,3 +1,4 @@
+//const weather_KEY  = '';
 const weatherLocation = [52.467582, 13.489501]; //Baume
 const apiURL = 'https://api.openweathermap.org/data/2.5/';
 const apiQuery = '?lat=' + weatherLocation[0] + '&lon=' + weatherLocation[1] + '&units=metric&lang=de&appid=' + weather_KEY;
@@ -112,5 +113,3 @@ setInterval(function () {
 		}
 	});
 }, 120000);
-
-//120000
