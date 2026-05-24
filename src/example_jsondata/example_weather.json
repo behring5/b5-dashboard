@@ -1,0 +1,15 @@
+{
+	"coord": { "lon": 13.4883, "lat": 52.4676 },
+	"weather": [{ "id": 800, "main": "Clear", "description": "Klarer Himmel", "icon": "01n" }],
+	"base": "stations",
+	"main": { "temp": 11.42, "feels_like": 10.5, "temp_min": 8.36, "temp_max": 12.76, "pressure": 1026, "humidity": 72 },
+	"visibility": 10000,
+	"wind": { "speed": 3.13, "deg": 66, "gust": 3.58 },
+	"clouds": { "all": 0 },
+	"dt": 1684538123,
+	"sys": { "type": 2, "id": 2000002, "country": "DE", "sunrise": 1684551814, "sunset": 1684609309 },
+	"timezone": 7200,
+	"id": 2951935,
+	"name": "Baumschulenweg",
+	"cod": 200
+}

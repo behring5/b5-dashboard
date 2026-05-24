@@ -1,0 +1,92 @@
+#weather {
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	flex-grow: 1;
+	/* opacity: 0; */
+	animation: show 1.5s ease forwards;
+	margin-bottom: 20px;
+}
+
+#weather img {
+	display: block;
+	max-width: 35%;
+}
+
+#weatherdata {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	gap: 2rem;
+}
+
+#weatherdata #weather span {
+	display: block;
+}
+
+.weather-now-temp {
+	font-size: 10em;
+	line-height: 1;
+}
+
+.weather-now-description {
+	font-size: 1.5em;
+}
+
+.weather-now-temp,
+.weather-now-description {
+	font-weight: 400;
+}
+
+.weather-now-location {
+	font-size: 1em;
+	opacity: 0.5;
+}
+
+#forecast {
+	width: 100%;
+	display: flex;
+	gap: 5px;
+	animation: show 1.5s ease forwards;
+}
+
+.forecastBlock {
+	width: calc(100% / 5);
+	background: rgba(0, 128, 0, 0);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 1.4;
+	font-weight: 400;
+	text-align: center;
+}
+
+.forecastBlock span {
+	display: block;
+}
+
+.forecastBlock .forecast-temp {
+	font-size: 1.8em;
+}
+.forecastBlock .forecast-weather {
+	font-size: 0.7em;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.forecastBlock .forecast-time {
+	font-size: 0.65em;
+	font-weight: 200;
+	opacity: 0.5;
+	margin-bottom: 5px;
+}
+
+.forecastBlock img {
+	display: block;
+	height: 50px;
+	margin-bottom: 0px;
+}

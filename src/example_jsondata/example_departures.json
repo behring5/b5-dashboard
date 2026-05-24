@@ -1,0 +1,784 @@
+{
+	"departures": [
+		{
+			"tripId": "1|15414|12|86|3022026",
+			"stop": {
+				"type": "stop",
+				"id": "900191001",
+				"name": "S Baumschulenweg (Berlin)",
+				"location": {
+					"type": "location",
+					"id": "900191001",
+					"latitude": 52.467582,
+					"longitude": 13.489501
+				},
+				"products": {
+					"suburban": true,
+					"subway": false,
+					"tram": false,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			},
+			"when": "2026-02-03T22:42:00+01:00",
+			"plannedWhen": "2026-02-03T22:42:00+01:00",
+			"delay": 0,
+			"platform": null,
+			"plannedPlatform": null,
+			"prognosisType": "prognosed",
+			"direction": "S Grünau (Berlin) [Adlergestell]",
+			"provenance": null,
+			"line": {
+				"type": "line",
+				"id": "de-vbb-11000000-s-bahn-s46-bus-s46-ev1",
+				"fahrtNr": "304",
+				"name": "S46",
+				"public": true,
+				"adminCode": "SEV---",
+				"productName": "Bus",
+				"mode": "bus",
+				"product": "bus",
+				"operator": {
+					"type": "operator",
+					"id": "s-bahn-berlin-gmbh",
+					"name": "S-Bahn Berlin GmbH"
+				}
+			},
+			"remarks": [],
+			"origin": null,
+			"destination": {
+				"type": "stop",
+				"id": "900186701",
+				"name": "S Grünau (Berlin) [Adlergestell]",
+				"location": {
+					"type": "location",
+					"id": "900186701",
+					"latitude": 52.413287,
+					"longitude": 13.57444
+				},
+				"products": {
+					"suburban": false,
+					"subway": false,
+					"tram": true,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			},
+			"currentTripPosition": {
+				"type": "location",
+				"latitude": 52.469101,
+				"longitude": 13.4912
+			}
+		},
+		{
+			"tripId": "1|4342|2|86|3022026",
+			"stop": {
+				"type": "stop",
+				"id": "900191001",
+				"name": "S Baumschulenweg (Berlin)",
+				"location": {
+					"type": "location",
+					"id": "900191001",
+					"latitude": 52.467582,
+					"longitude": 13.489501
+				},
+				"products": {
+					"suburban": true,
+					"subway": false,
+					"tram": false,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			},
+			"when": "2026-02-03T22:43:00+01:00",
+			"plannedWhen": "2026-02-03T22:43:00+01:00",
+			"delay": null,
+			"platform": "4",
+			"plannedPlatform": "4",
+			"prognosisType": "prognosed",
+			"direction": "S Plänterwald (Berlin)",
+			"provenance": null,
+			"line": {
+				"type": "line",
+				"id": "de-vbb-11000000-s-bahn-s8",
+				"fahrtNr": "23386",
+				"name": "S8",
+				"public": true,
+				"adminCode": "DBS---",
+				"productName": "S",
+				"mode": "train",
+				"product": "suburban",
+				"operator": {
+					"type": "operator",
+					"id": "s-bahn-berlin-gmbh",
+					"name": "S-Bahn Berlin GmbH"
+				}
+			},
+			"remarks": [],
+			"origin": null,
+			"destination": {
+				"type": "stop",
+				"id": "900191002",
+				"name": "S Plänterwald (Berlin)",
+				"location": {
+					"type": "location",
+					"id": "900191002",
+					"latitude": 52.47872,
+					"longitude": 13.47403
+				},
+				"products": {
+					"suburban": true,
+					"subway": false,
+					"tram": false,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			}
+		},
+		{
+			"tripId": "1|37884|6|86|3022026",
+			"stop": {
+				"type": "stop",
+				"id": "900191001",
+				"name": "S Baumschulenweg (Berlin)",
+				"location": {
+					"type": "location",
+					"id": "900191001",
+					"latitude": 52.467582,
+					"longitude": 13.489501
+				},
+				"products": {
+					"suburban": true,
+					"subway": false,
+					"tram": false,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			},
+			"when": "2026-02-03T22:43:00+01:00",
+			"plannedWhen": "2026-02-03T22:43:00+01:00",
+			"delay": 0,
+			"platform": null,
+			"plannedPlatform": null,
+			"prognosisType": "prognosed",
+			"direction": "Baumschulenstr./Fähre",
+			"provenance": null,
+			"line": {
+				"type": "line",
+				"id": "de-vbb-11000000-bus-170",
+				"fahrtNr": "101374",
+				"name": "170",
+				"public": true,
+				"adminCode": "BVB---",
+				"productName": "Bus",
+				"mode": "bus",
+				"product": "bus",
+				"operator": {
+					"type": "operator",
+					"id": "berliner-verkehrsbetriebe",
+					"name": "Berliner Verkehrsbetriebe"
+				}
+			},
+			"remarks": [],
+			"origin": null,
+			"destination": {
+				"type": "stop",
+				"id": "900191513",
+				"name": "Baumschulenstr./Fähre (Berlin)",
+				"location": {
+					"type": "location",
+					"id": "900191513",
+					"latitude": 52.471879,
+					"longitude": 13.494786
+				},
+				"products": {
+					"suburban": false,
+					"subway": false,
+					"tram": false,
+					"bus": true,
+					"ferry": true,
+					"express": false,
+					"regional": false
+				}
+			},
+			"currentTripPosition": {
+				"type": "location",
+				"latitude": 52.467132,
+				"longitude": 13.488997
+			}
+		},
+		{
+			"tripId": "1|15527|6|86|3022026",
+			"stop": {
+				"type": "stop",
+				"id": "900191001",
+				"name": "S Baumschulenweg (Berlin)",
+				"location": {
+					"type": "location",
+					"id": "900191001",
+					"latitude": 52.467582,
+					"longitude": 13.489501
+				},
+				"products": {
+					"suburban": true,
+					"subway": false,
+					"tram": false,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			},
+			"when": "2026-02-03T22:45:00+01:00",
+			"plannedWhen": "2026-02-03T22:45:00+01:00",
+			"delay": 0,
+			"platform": null,
+			"plannedPlatform": null,
+			"prognosisType": "prognosed",
+			"direction": "Schönefeld (b. Bln), Flughafen BER/Willy-Brandt-Pl",
+			"provenance": null,
+			"line": {
+				"type": "line",
+				"id": "de-vbb-11000000-s-bahn-s9-bus-s9x-ev1",
+				"fahrtNr": "2297",
+				"name": "S9X",
+				"public": true,
+				"adminCode": "SEV---",
+				"productName": "Bus",
+				"mode": "bus",
+				"product": "bus",
+				"operator": {
+					"type": "operator",
+					"id": "s-bahn-berlin-gmbh",
+					"name": "S-Bahn Berlin GmbH"
+				}
+			},
+			"remarks": [],
+			"origin": null,
+			"destination": {
+				"type": "stop",
+				"id": "900260539",
+				"name": "Schönefeld (b. Bln), Flughafen BER/Willy-Brandt-Pl",
+				"location": {
+					"type": "location",
+					"id": "900260539",
+					"latitude": 52.365096,
+					"longitude": 13.512819
+				},
+				"products": {
+					"suburban": false,
+					"subway": false,
+					"tram": false,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			}
+		},
+		{
+			"tripId": "1|15594|6|86|3022026",
+			"stop": {
+				"type": "stop",
+				"id": "900191001",
+				"name": "S Baumschulenweg (Berlin)",
+				"location": {
+					"type": "location",
+					"id": "900191001",
+					"latitude": 52.467582,
+					"longitude": 13.489501
+				},
+				"products": {
+					"suburban": true,
+					"subway": false,
+					"tram": false,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			},
+			"when": "2026-02-03T22:46:00+01:00",
+			"plannedWhen": "2026-02-03T22:46:00+01:00",
+			"delay": null,
+			"platform": null,
+			"plannedPlatform": null,
+			"prognosisType": null,
+			"direction": "S Grünbergallee (Berlin)",
+			"provenance": null,
+			"line": {
+				"type": "line",
+				"id": "de-vbb-11000000-s-bahn-s9-bus-s9a-ev1",
+				"fahrtNr": "3357",
+				"name": "S9A",
+				"public": true,
+				"adminCode": "SEV---",
+				"productName": "Bus",
+				"mode": "bus",
+				"product": "bus",
+				"operator": {
+					"type": "operator",
+					"id": "s-bahn-berlin-gmbh",
+					"name": "S-Bahn Berlin GmbH"
+				}
+			},
+			"remarks": [],
+			"origin": null,
+			"destination": {
+				"type": "stop",
+				"id": "900196001",
+				"name": "S Grünbergallee (Berlin)",
+				"location": {
+					"type": "location",
+					"id": "900196001",
+					"latitude": 52.399543,
+					"longitude": 13.54322
+				},
+				"products": {
+					"suburban": true,
+					"subway": false,
+					"tram": false,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			}
+		},
+		{
+			"tripId": "1|46134|0|86|3022026",
+			"stop": {
+				"type": "stop",
+				"id": "900191001",
+				"name": "S Baumschulenweg (Berlin)",
+				"location": {
+					"type": "location",
+					"id": "900191001",
+					"latitude": 52.467582,
+					"longitude": 13.489501
+				},
+				"products": {
+					"suburban": true,
+					"subway": false,
+					"tram": false,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			},
+			"when": "2026-02-03T22:47:00+01:00",
+			"plannedWhen": "2026-02-03T22:46:00+01:00",
+			"delay": 60,
+			"platform": null,
+			"plannedPlatform": null,
+			"prognosisType": "prognosed",
+			"direction": "Elsenstr./S Treptower Park",
+			"provenance": null,
+			"line": {
+				"type": "line",
+				"id": "de-vbb-11000000-bus-265",
+				"fahrtNr": "115373",
+				"name": "265",
+				"public": true,
+				"adminCode": "BVB---",
+				"productName": "Bus",
+				"mode": "bus",
+				"product": "bus",
+				"operator": {
+					"type": "operator",
+					"id": "berliner-verkehrsbetriebe",
+					"name": "Berliner Verkehrsbetriebe"
+				}
+			},
+			"remarks": [],
+			"origin": null,
+			"destination": {
+				"type": "stop",
+				"id": "900190100",
+				"name": "Elsenstr./S Treptower Park (Berlin)",
+				"location": {
+					"type": "location",
+					"id": "900190100",
+					"latitude": 52.492887,
+					"longitude": 13.458811
+				},
+				"products": {
+					"suburban": false,
+					"subway": false,
+					"tram": false,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			},
+			"currentTripPosition": {
+				"type": "location",
+				"latitude": 52.45524,
+				"longitude": 13.477284
+			}
+		},
+		{
+			"tripId": "1|15414|13|86|3022026",
+			"stop": {
+				"type": "stop",
+				"id": "900191001",
+				"name": "S Baumschulenweg (Berlin)",
+				"location": {
+					"type": "location",
+					"id": "900191001",
+					"latitude": 52.467582,
+					"longitude": 13.489501
+				},
+				"products": {
+					"suburban": true,
+					"subway": false,
+					"tram": false,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			},
+			"when": "2026-02-03T22:47:00+01:00",
+			"plannedWhen": "2026-02-03T22:47:00+01:00",
+			"delay": 0,
+			"platform": null,
+			"plannedPlatform": null,
+			"prognosisType": "prognosed",
+			"direction": "S Grünau (Berlin) [Adlergestell]",
+			"provenance": null,
+			"line": {
+				"type": "line",
+				"id": "de-vbb-11000000-s-bahn-s46-bus-s46-ev1",
+				"fahrtNr": "305",
+				"name": "S46",
+				"public": true,
+				"adminCode": "SEV---",
+				"productName": "Bus",
+				"mode": "bus",
+				"product": "bus",
+				"operator": {
+					"type": "operator",
+					"id": "s-bahn-berlin-gmbh",
+					"name": "S-Bahn Berlin GmbH"
+				}
+			},
+			"remarks": [],
+			"origin": null,
+			"destination": {
+				"type": "stop",
+				"id": "900186701",
+				"name": "S Grünau (Berlin) [Adlergestell]",
+				"location": {
+					"type": "location",
+					"id": "900186701",
+					"latitude": 52.413287,
+					"longitude": 13.57444
+				},
+				"products": {
+					"suburban": false,
+					"subway": false,
+					"tram": true,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			}
+		},
+		{
+			"tripId": "1|46091|0|86|3022026",
+			"stop": {
+				"type": "stop",
+				"id": "900191001",
+				"name": "S Baumschulenweg (Berlin)",
+				"location": {
+					"type": "location",
+					"id": "900191001",
+					"latitude": 52.467582,
+					"longitude": 13.489501
+				},
+				"products": {
+					"suburban": true,
+					"subway": false,
+					"tram": false,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			},
+			"when": "2026-02-03T22:48:00+01:00",
+			"plannedWhen": "2026-02-03T22:48:00+01:00",
+			"delay": 0,
+			"platform": null,
+			"plannedPlatform": null,
+			"prognosisType": "prognosed",
+			"direction": "S Schöneweide",
+			"provenance": null,
+			"line": {
+				"type": "line",
+				"id": "de-vbb-11000000-bus-265",
+				"fahrtNr": "115498",
+				"name": "265",
+				"public": true,
+				"adminCode": "BVB---",
+				"productName": "Bus",
+				"mode": "bus",
+				"product": "bus",
+				"operator": {
+					"type": "operator",
+					"id": "berliner-verkehrsbetriebe",
+					"name": "Berliner Verkehrsbetriebe"
+				}
+			},
+			"remarks": [],
+			"origin": null,
+			"destination": {
+				"type": "stop",
+				"id": "900194006",
+				"name": "S Schöneweide/Sterndamm (Berlin)",
+				"location": {
+					"type": "location",
+					"id": "900194006",
+					"latitude": 52.454242,
+					"longitude": 13.508738
+				},
+				"products": {
+					"suburban": false,
+					"subway": false,
+					"tram": true,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			},
+			"currentTripPosition": {
+				"type": "location",
+				"latitude": 52.483169,
+				"longitude": 13.480673
+			}
+		},
+		{
+			"tripId": "1|1731|1|86|3022026",
+			"stop": {
+				"type": "stop",
+				"id": "900191001",
+				"name": "S Baumschulenweg (Berlin)",
+				"location": {
+					"type": "location",
+					"id": "900191001",
+					"latitude": 52.467582,
+					"longitude": 13.489501
+				},
+				"products": {
+					"suburban": true,
+					"subway": false,
+					"tram": false,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			},
+			"when": "2026-02-03T22:49:00+01:00",
+			"plannedWhen": "2026-02-03T22:48:00+01:00",
+			"delay": 60,
+			"platform": "5",
+			"plannedPlatform": "5",
+			"prognosisType": "prognosed",
+			"direction": "S Westend (Berlin)",
+			"provenance": null,
+			"line": {
+				"type": "line",
+				"id": "de-vbb-11000000-s-bahn-s46",
+				"fahrtNr": "18904",
+				"name": "S46",
+				"public": true,
+				"adminCode": "DBS---",
+				"productName": "S",
+				"mode": "train",
+				"product": "suburban",
+				"operator": {
+					"type": "operator",
+					"id": "s-bahn-berlin-gmbh",
+					"name": "S-Bahn Berlin GmbH"
+				}
+			},
+			"remarks": [],
+			"origin": null,
+			"destination": {
+				"type": "stop",
+				"id": "900026207",
+				"name": "S Westend (Berlin)",
+				"location": {
+					"type": "location",
+					"id": "900026207",
+					"latitude": 52.518614,
+					"longitude": 13.284241
+				},
+				"products": {
+					"suburban": true,
+					"subway": false,
+					"tram": false,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			}
+		},
+		{
+			"tripId": "1|15496|3|86|3022026",
+			"stop": {
+				"type": "stop",
+				"id": "900191001",
+				"name": "S Baumschulenweg (Berlin)",
+				"location": {
+					"type": "location",
+					"id": "900191001",
+					"latitude": 52.467582,
+					"longitude": 13.489501
+				},
+				"products": {
+					"suburban": true,
+					"subway": false,
+					"tram": false,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			},
+			"when": "2026-02-03T22:50:00+01:00",
+			"plannedWhen": "2026-02-03T22:50:00+01:00",
+			"delay": 0,
+			"platform": null,
+			"plannedPlatform": null,
+			"prognosisType": "prognosed",
+			"direction": "S Spindlersfeld (Berlin)",
+			"provenance": null,
+			"line": {
+				"type": "line",
+				"id": "de-vbb-11000000-s-bahn-s47-bus-s47-ev1",
+				"fahrtNr": "1950",
+				"name": "S47",
+				"public": true,
+				"adminCode": "SEV---",
+				"productName": "Bus",
+				"mode": "bus",
+				"product": "bus",
+				"operator": {
+					"type": "operator",
+					"id": "s-bahn-berlin-gmbh",
+					"name": "S-Bahn Berlin GmbH"
+				}
+			},
+			"remarks": [],
+			"origin": null,
+			"destination": {
+				"type": "stop",
+				"id": "900180003",
+				"name": "S Spindlersfeld (Berlin)",
+				"location": {
+					"type": "location",
+					"id": "900180003",
+					"latitude": 52.445936,
+					"longitude": 13.5627
+				},
+				"products": {
+					"suburban": true,
+					"subway": false,
+					"tram": true,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			}
+		},
+		{
+			"tripId": "1|37960|8|86|3022026",
+			"stop": {
+				"type": "stop",
+				"id": "900191001",
+				"name": "S Baumschulenweg (Berlin)",
+				"location": {
+					"type": "location",
+					"id": "900191001",
+					"latitude": 52.467582,
+					"longitude": 13.489501
+				},
+				"products": {
+					"suburban": true,
+					"subway": false,
+					"tram": false,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			},
+			"when": "2026-02-03T22:50:00+01:00",
+			"plannedWhen": "2026-02-03T22:50:00+01:00",
+			"delay": 0,
+			"platform": null,
+			"plannedPlatform": null,
+			"prognosisType": "prognosed",
+			"direction": "S+U Rathaus Steglitz",
+			"provenance": null,
+			"line": {
+				"type": "line",
+				"id": "de-vbb-11000000-bus-170",
+				"fahrtNr": "101143",
+				"name": "170",
+				"public": true,
+				"adminCode": "BVB---",
+				"productName": "Bus",
+				"mode": "bus",
+				"product": "bus",
+				"operator": {
+					"type": "operator",
+					"id": "berliner-verkehrsbetriebe",
+					"name": "Berliner Verkehrsbetriebe"
+				}
+			},
+			"remarks": [],
+			"origin": null,
+			"destination": {
+				"type": "stop",
+				"id": "900062282",
+				"name": "S+U Rathaus Steglitz (Berlin) [Busbahnhof]",
+				"location": {
+					"type": "location",
+					"id": "900062282",
+					"latitude": 52.455887,
+					"longitude": 13.320854
+				},
+				"products": {
+					"suburban": false,
+					"subway": false,
+					"tram": false,
+					"bus": true,
+					"ferry": false,
+					"express": false,
+					"regional": false
+				}
+			}
+		}
+	],
+	"realtimeDataUpdatedAt": 1770154930
+}

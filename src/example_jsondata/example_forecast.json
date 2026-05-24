@@ -1,0 +1,83 @@
+{
+	"cod": "200",
+	"message": 0,
+	"cnt": 6,
+	"list": [
+		{
+			"dt": 1684540800,
+			"main": { "temp": 11.51, "feels_like": 10.62, "temp_min": 9.05, "temp_max": 11.51, "pressure": 1026, "sea_level": 1026, "grnd_level": 1022, "humidity": 73, "temp_kf": 2.46 },
+			"weather": [{ "id": 800, "main": "Clear", "description": "Klarer Himmel", "icon": "01n" }],
+			"clouds": { "all": 0 },
+			"wind": { "speed": 3.67, "deg": 69, "gust": 8.57 },
+			"visibility": 10000,
+			"pop": 0,
+			"sys": { "pod": "n" },
+			"dt_txt": "2023-05-20 00:00:00"
+		},
+		{
+			"dt": 1684551600,
+			"main": { "temp": 10.34, "feels_like": 9.49, "temp_min": 8.01, "temp_max": 10.34, "pressure": 1026, "sea_level": 1026, "grnd_level": 1021, "humidity": 79, "temp_kf": 2.33 },
+			"weather": [{ "id": 802, "main": "Clouds", "description": "Mäßig bewölkt", "icon": "03n" }],
+			"clouds": { "all": 29 },
+			"wind": { "speed": 3.75, "deg": 52, "gust": 8.59 },
+			"visibility": 10000,
+			"pop": 0,
+			"sys": { "pod": "n" },
+			"dt_txt": "2023-05-20 03:00:00"
+		},
+		{
+			"dt": 1684562400,
+			"main": { "temp": 10.77, "feels_like": 9.97, "temp_min": 10.4, "temp_max": 10.77, "pressure": 1026, "sea_level": 1026, "grnd_level": 1021, "humidity": 79, "temp_kf": 0.37 },
+			"weather": [{ "id": 803, "main": "Clouds", "description": "Überwiegend bewölkt", "icon": "04d" }],
+			"clouds": { "all": 61 },
+			"wind": { "speed": 4.73, "deg": 62, "gust": 10 },
+			"visibility": 10000,
+			"pop": 0,
+			"sys": { "pod": "d" },
+			"dt_txt": "2023-05-20 06:00:00"
+		},
+		{
+			"dt": 1684573200,
+			"main": { "temp": 16.29, "feels_like": 15.62, "temp_min": 16.29, "temp_max": 16.29, "pressure": 1025, "sea_level": 1025, "grnd_level": 1020, "humidity": 63, "temp_kf": 0 },
+			"weather": [{ "id": 804, "main": "Clouds", "description": "Bedeckt", "icon": "04d" }],
+			"clouds": { "all": 97 },
+			"wind": { "speed": 5.54, "deg": 79, "gust": 7.04 },
+			"visibility": 10000,
+			"pop": 0,
+			"sys": { "pod": "d" },
+			"dt_txt": "2023-05-20 09:00:00"
+		},
+		{
+			"dt": 1684584000,
+			"main": { "temp": 20.43, "feels_like": 19.86, "temp_min": 20.43, "temp_max": 20.43, "pressure": 1023, "sea_level": 1023, "grnd_level": 1019, "humidity": 51, "temp_kf": 0 },
+			"weather": [{ "id": 804, "main": "Clouds", "description": "Bedeckt", "icon": "04d" }],
+			"clouds": { "all": 93 },
+			"wind": { "speed": 5.91, "deg": 70, "gust": 7.28 },
+			"visibility": 10000,
+			"pop": 0,
+			"sys": { "pod": "d" },
+			"dt_txt": "2023-05-20 12:00:00"
+		},
+		{
+			"dt": 1684594800,
+			"main": { "temp": 22.07, "feels_like": 21.61, "temp_min": 22.07, "temp_max": 22.07, "pressure": 1021, "sea_level": 1021, "grnd_level": 1017, "humidity": 49, "temp_kf": 0 },
+			"weather": [{ "id": 803, "main": "Clouds", "description": "Überwiegend bewölkt", "icon": "04d" }],
+			"clouds": { "all": 83 },
+			"wind": { "speed": 6.54, "deg": 78, "gust": 8.22 },
+			"visibility": 10000,
+			"pop": 0.01,
+			"sys": { "pod": "d" },
+			"dt_txt": "2023-05-20 15:00:00"
+		}
+	],
+	"city": {
+		"id": 2951935,
+		"name": "Baumschulenweg",
+		"coord": { "lat": 52.4676, "lon": 13.4895 },
+		"country": "DE",
+		"population": 0,
+		"timezone": 7200,
+		"sunrise": 1684551813,
+		"sunset": 1684609308
+	}
+}
