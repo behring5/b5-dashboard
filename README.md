@@ -1,22 +1,20 @@
 # Behring5 Dashboard
 
-A small dashboard showing...
+A fullscreen info dashboard (re)built with React, designed to run on a tablet in my kitchen. <br>
+I'm using the [Fully Kiosk Browser](https://www.fully-kiosk.com/) othe tablet, which has some nice features like fullscreen mode and motion/sound detection, which turns the screen on when you enter the kitchen.
+<br><br>
+<img width="400" style="float:left;" src=".github/images/behring5dashboard.jpg" />
+<img width="400" style="margin-left:30px;" src=".github/images/behring5dashboard.gif" />
 
--  time/date (plain simple JS)
--  weather data using [openweathermap.org's](https://openweathermap.org) API
--  next departures for trains/buses near my home using this [BVG API](https://v6.bvg.transport.rest/)
+## Features
 
-The dashboard is hosted under [behring5.de](https://behring5.de/) and displayed on an old tablet in my kitchen. I'm using the [Fully Kiosk Browser](https://www.fully-kiosk.com/), which has some nice features like fullscreen mode and motion/sound detection, which turns the screen on when you enter the kitchen.
-<br>  
- <br>  
- <img width="400" style="margin-left:30px" src="https://raw.githubusercontent.com/BehringBOB/behring5-Dashboard/master/assets/behring5dashboard.jpg" >
-<img width="400" style="margin-left:30px" src="https://raw.githubusercontent.com/BehringBOB/behring5-Dashboard/master/assets/behring5dashboard.gif" >
+- **Time** — live clock display
+- **Weather** — current conditions and hourly forecast, updated every 10 minutes, data fetched from my little personal weather API weather.behring5.de (its basically cached data from [openweathermap.org](https://openweathermap.org) )
+- **Transportation** — real-time BVG departure board for Baumschulenweg, updated every 30 seconds, data fetched from https://v6.bvg.transport.rest/
 
-<br>  
-  
-### elements/ideas to add/optimize...
+## Dev
 
--  [x] optimize data update (visually)
--  [x] make it responsive to use it also on smartphone
--  [ ] adding some other information like maybe news,...
--  [ ] dark/light mode according to daytime for better readabilty
+```bash
+npm install
+npm run dev
+```
